@@ -1,7 +1,7 @@
 public class FindNumber369_v1 {
 
 	public static int find369(int number) {
-		int countNumber369 = 0; // 3,6,9가 들어간 카운팅의 초기값
+		int countNumber369 = 0; 	// 3,6,9가 들어간 카운팅의 초기값
 		while (number > 0) { // 이 루프는 number가 0보가 크면 동작한다, 즉 number가 0이 될때 루프 종료
 			int temp = number % 10; // 어떤 숫자 number의 나머지 = temp를 구함
 
